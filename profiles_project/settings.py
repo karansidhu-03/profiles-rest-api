@@ -83,6 +83,8 @@ DATABASES = {
     }
 }
 
+#Use our custom UserModel
+AUTH_USER_MODEL = 'profiles_api.UserProfile'
 
 # Password validation
 # https://docs.djangoproject.com/en/5.1/ref/settings/#auth-password-validators
@@ -124,3 +126,4 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
